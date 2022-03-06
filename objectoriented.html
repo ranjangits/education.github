@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="java script/java.js"></script>
+    <style>
+
+    </style>
+</head>
+
+<body class="king">
+    <div style="margin-left: 100px;margin-top: 50px; padding-bottom: 50px; ">
+
+        <my-header></my-header>
+    </div>
+
+    <div class="set">
+        <button class="btn btn-primary  " style="margin-left: 100px;margin-left: 100px;"> <a href="java.html"
+                style="color: white;">Back</a></button>
+        <h1 style="margin-left: 500px; padding-top: 120px; font-size: 45px ; color: whitesmoke; margin-top: -50px;">
+            Object-oriented Java</h1> <br>
+        <p style="margin-left: 200px; font-size: 25px;">Learn about object-oriented programming in Java. Explore syntax
+            for defining classes and creating </p>
+        <p style="margin-left: 620px; font-size: 25px;"> instances.</p>
+    </div>
+
+    <div>
+        <h1 style="margin-left: 620px;"> <br><br> <br> Key concepts</h1> <br><br>
+
+        <p class="font family " style="font-size: 35px; margin-left: 300px;">Review core concepts you need to learn to
+            master this subject
+        </p>
+
+        <br>
+    </div>
+    <br><br>
+
+    <div class="with">
+        <h3 style=" margin-left: 80px; padding-top: 60px;">Java objects’ state and behavior</h3>
+        <br><br>
+        <div class="bits">
+            <p style="color: blue; margin-left: 45px; padding-top: 30px;">public class Person <br>
+            <p class="text-dark" style="margin-left: 50px;">// state of an object</p>
+            <span style="color: orangered;margin-left: 50px;"> int age; <br></span>
+            <span style="color: orangered;margin-left: 50px;"> String name;</span> </p>
+            <p class="text-dark" style="margin-top: -15px; margin-left: 30px; "> // behavior of an object</p>
+
+            <br>
+            <p style="font-size: 17px; margin-left: 50px; color:blue">public<span
+                    style="font-size: 17px; margin-left: 10px; color: orangered;">void set_value</span>
+                <span class="text-white">() {</span>
+            </p>
+            <p style="font-size: 17px; margin-left: 50px; color:orangered"> age = 20; <br>
+                name = <span style="font-size: 17px;  color:orange">"Robin";</span> </p>
+            <p style="font-size: 17px; margin-left: 50px;" class="text-warning"></p>
+            <p style="font-size: 17px; margin-left: 50px; color:blue">public<span
+                    style="font-size: 17px; margin-left: 10px; color: orangered;">void get_value</span>
+                <span class="text-white">() {</span>
+            <p style="font-size: 17px; margin-left: 50px; color:orangered"> System.out.println =
+                <span style="color: orange
+                ;">("Age is " +</span> age);
+            <p style="font-size: 17px; margin-left: 50px; color:orangered"> System.out.println =
+                <span style="color: orange
+                    ;">("Name is " +</span> Name); <br><span style="color: white;">}</span>
+            </p>
+            <p class="text-dark" style="margin-left: 50px;">// Main Method</p>
+            <p style="font-size: 17px; margin-left: 50px; color:blue">public static<span
+                    style="font-size: 17px; margin-left: 10px; color: orangered;">void main (String args [] )</span>
+                <span class="text-white">() {</span>
+            <p class="text-dark" style="margin-left: 50px;">// creates a new Person object</p>
+            <p style="font-size: 17px; margin-left: 50px; color:orangered"> Person p
+                <span style="color: orange
+                            ;">= new</span> person <span style="color: white;">();</span>
+            </p>
+            <p style="font-size: 17px; margin-left: 50px; color:orangered"> p.set_value
+                <span style="color: white;">();</span>
+            </p>
+        </div> <br><br>
+        <p style="font-size: 20px; margin-left: 50px; width: 750px;">In Java, instances of a class are known as objects.
+            Every object
+            has state and behavior in the form of
+            instance fields and methods respectively.</p>
+    </div> <br><br>
+    <h1 class="font family" style="margin-left: 450px;">JAVA: INTRODUCTION TO CLASSES</h1>
+    <br><br>
+    <div class="row">
+        <div class="col-1">
+            <h1 style="margin-left: 150px;">1</h1>
+        </div>
+
+        <div class="col-8">
+            <h2 style="margin-left: 150px; color: blue;">
+                Introduction To Classes</h2>
+            <p style="margin-left: 150px;"> All programs require one or more classes that act as a model for the world.
+                For example, a program to track student test scores might have Student, Course, and Grade classes. Our
+                real-world concer…
+            </p>
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+            <button class="btn btn-danger font-family " data-toggle="modal" data-target="#registration_2"
+                style=" margin-top: -30px;">Register
+                <span class="fa fa-plus"></span></button>
+        </div>
+        <div id="registration_2" class="modal fade" data-keyboard="false" data-backdrop="static">
+
+            <div class="modal-dialog modal-sm modal-dialog-centered ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registration</h5>
+                        <button class="close" data-dismiss="modal">&times;</button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>user name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning">register</button>
+                        <button class="btn btn-dark" data-dismiss="modal">cancel</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div>
+    </div>
+
+
+    </div>
+    <div>
+
+    </div>
+    <br><br>
+
+    <div class="row">
+        <div class="col-1">
+            <h1 style="margin-left: 150px;">2</h1>
+        </div>
+        <div class="col-8">
+            <h2 style="margin-left: 150px; color: blue;">
+                Classes:Syntax</h2>
+            <p style="margin-left: 150px;"> The first type of data we will store is the whole number. Whole numbers are
+                very common in programming. You often see them used to store ages, or maximum sizes, or the number of
+                times some code has…
+
+            </p>
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+            <button class="btn btn-danger font-family " data-toggle="modal" data-target="#registration_2"
+                style=" margin-top: -30px;">Register
+                <span class="fa fa-plus"></span></button>
+        </div>
+        <div id="registration_2" class="modal fade" data-keyboard="false" data-backdrop="static">
+
+            <div class="modal-dialog modal-sm modal-dialog-centered ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registration</h5>
+                        <button class="close" data-dismiss="modal">&times;</button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>user name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning">register</button>
+                        <button class="btn btn-dark" data-dismiss="modal">cancel</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div>
+    </div>
+
+    </div>
+    <div>
+
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-1">
+            <h1 style="margin-left: 150px;">3</h1>
+        </div>
+        <div class="col-8">
+            <h2 style="margin-left: 150px; color: blue;">
+
+                Classes:Constructor</h2>
+            <p style="margin-left: 150px;">
+                In order to create an object (an instance of a class), we need a constructor method. The constructor is
+                defined within the class. Let’s take a look at the Car class with a constructor. The constr…
+
+            </p>
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+            <button class="btn btn-danger font-family " data-toggle="modal" data-target="#registration_2"
+                style=" margin-top: -30px;">Register
+                <span class="fa fa-plus"></span></button>
+        </div>
+        <div id="registration_2" class="modal fade" data-keyboard="false" data-backdrop="static">
+
+            <div class="modal-dialog modal-sm modal-dialog-centered ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registration</h5>
+                        <button class="close" data-dismiss="modal">&times;</button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>user name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning">register</button>
+                        <button class="btn btn-dark" data-dismiss="modal">cancel</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div>
+    </div>
+
+    </div>
+    <div>
+
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-1">
+            <h1 style="margin-left: 150px;">4</h1>
+        </div>
+        <div class="col-8">
+            <h2 style="margin-left: 150px; color: blue;">
+
+                Classes:Instance Field</h2>
+            <p style="margin-left: 150px;">
+
+                Our last exercise ended with printing an instance of Store, which looked something like Store@6bc7c054.
+                The first part, Store, refers to the class, and the second part @6bc7c054 refers to the insta…
+            </p>
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+            <button class="btn btn-danger font-family " data-toggle="modal" data-target="#registration_2"
+                style=" margin-top: -30px;">Register
+                <span class="fa fa-plus"></span></button>
+        </div>
+        <div id="registration_2" class="modal fade" data-keyboard="false" data-backdrop="static">
+
+            <div class="modal-dialog modal-sm modal-dialog-centered ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registration</h5>
+                        <button class="close" data-dismiss="modal">&times;</button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>user name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning">register</button>
+                        <button class="btn btn-dark" data-dismiss="modal">cancel</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div>
+    </div>
+
+    </div>
+    <div>
+
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="col-1">
+            <h1 style="margin-left: 150px;">5</h1>
+        </div>
+        <div class="col-8">
+            <h2 style="margin-left: 150px; color: blue;">
+
+                Classes:Constructor Field</h2>
+            <p style="margin-left: 150px;">To create objects with dynamic, individual states, we’ll use a combination of
+                the constructor method and instance fields. In order to assign a value to an instance variable, we need
+                to alter our …
+            </p>
+        </div>
+        <div class="col-2" style="margin-top: 50px;">
+            <button class="btn btn-danger font-family " data-toggle="modal" data-target="#registration_2"
+                style=" margin-top: -30px;">Register
+                <span class="fa fa-plus"></span></button>
+        </div>
+        <div id="registration_2" class="modal fade" data-keyboard="false" data-backdrop="static">
+
+            <div class="modal-dialog modal-sm modal-dialog-centered ">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Registration</h5>
+                        <button class="close" data-dismiss="modal">&times;</button>
+
+                    </div>
+
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label>user name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-warning">register</button>
+                        <button class="btn btn-dark" data-dismiss="modal">cancel</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div>
+    </div>
+
+    </div>
+    <div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+
+            <div class="we">
+                <my-footer></my-footer>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
