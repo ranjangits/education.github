@@ -4,7 +4,7 @@ class MyHeader extends HTMLElement {
     
         
  
-            <a href='education.html' class="bas">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+            <a href='index.html' class="bas">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
         
             <a href='java.html' class="bas">JAVA</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
             <a href='html.html' class="bas">HTML</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
